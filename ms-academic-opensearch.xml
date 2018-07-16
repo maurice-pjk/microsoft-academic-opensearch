@@ -16,6 +16,4 @@
     <Param name="from" value="0"/>
     <Param name="sort" value="0"/>
   </Url>
-  <Url type="application/x-suggestions+json" template="suggestionURL"/>
-  <moz:SearchForm>http://example.com/search</moz:SearchForm>
 </OpenSearchDescription>
