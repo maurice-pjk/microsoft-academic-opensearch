@@ -1,12 +1,7 @@
-<!--
-  Add engine through dev. console:
-  Services.search.addEngine("file:/Users/.../microsoft-academic-opensearch/ms-academic-opensearch.xml", null, null, false)
--->
-
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>MS Academic</ShortName>
-  <Description>Academic Semantic Search by Microsoft</Description>
+  <ShortName>Microsoft Academic</ShortName>
+  <Description>Academic Semantic Search Engine by Microsoft</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">https://academic.microsoft.com/App/build/icons-75bfc40a2c7542928d63dac3594141ab/favicon.ico</Image>
   <Url type="text/html" template="https://academic.microsoft.com/#/search">
@@ -17,3 +12,8 @@
     <Param name="sort" value="0"/>
   </Url>
 </OpenSearchDescription>
+
+<!--
+  Add engine through dev. console:
+  Services.search.addEngine("file:/Users/.../microsoft-academic-opensearch/ms-academic-opensearch.xml", null, null, false)
+-->
